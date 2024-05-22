@@ -1,0 +1,215 @@
+::selection {
+  background: #000;
+  color: #fff;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-family:"Mukta", "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+}
+.container{
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.menu .icon{
+ color: rgb(153, 150, 150);
+}
+.menu-top{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+  align-items: center;
+}
+.search{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.search input{
+ border: none;
+}
+.logo{
+  border: 1px solid black;
+  padding: 5px 10px;
+}
+.nav-icons{
+  display: flex;
+  gap: 20px;
+  font-size: 15px;
+}
+.menu-botm{
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding: 15px 0;
+  font-size: 16px;
+  color: rgb(83, 82, 82);
+ 
+}
+.drpdown{
+  display: none;
+  z-index: 1;
+  
+}
+.menu-botm li:hover{
+ color: #7971EA;
+ transition: 0.5s all;
+ cursor: pointer;
+}
+.menu-botm li:hover .drpdown{
+  display: inline;
+  transition: 0.5s all;
+  cursor: pointer;
+}
+.purpl{
+  color: #7971EA;
+}
+.shob{
+  background-image:url(https://preview.colorlib.com/theme/shoppers/images/hero_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 270px 0;
+  padding-left: 50%;
+
+
+
+}
+.shob h1{
+  font-size: 60px;
+}
+.shob p{
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+ .btn1{
+ border: none;
+ padding: 10px 20px;
+ font-size: 16px;
+ border-radius: 5px;
+ background-color: #7971EA;
+ color: white;
+ margin-right: 10px;
+}
+.btn1:hover{
+  background-color: #504b98bc;
+}
+#shop-img{
+  width: 100%;
+  object-fit: cover;
+}
+
+
+.about{
+  padding: 70px 0;
+}
+.about .icon{
+  font-size: 30px;
+  color: #7971EA;
+}
+.collection{
+  padding: 30px 0;
+}
+.collection img{
+ width: 100%;
+ object-fit: cover;
+
+}
+.img{
+  position: relative;
+
+}
+.img:hover{
+ 
+  transition: 0.8s all;
+ }
+ .img:hover img{
+  overflow: hidden;
+ }
+.txt{
+  position: absolute;
+  bottom: 10px;
+  left: 30px;
+  color: rgb(57, 59, 60);
+}
+.txt > h3{
+  color: white;
+}
+.txt > span{
+  color: white;
+}
+
+
+.feature{
+  background-color: rgba(236, 230, 230, 0.37);
+  text-align: center;
+  padding: 100px ;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+}
+.feature img{
+  width: 100%;
+  object-fit: cover;
+}
+.feature h4,
+.feature span{
+  color: #7971EA;
+}
+
+.sale{
+  padding: 150px ;
+  text-align: center;
+}
+.saale img{
+  width: 100%;
+}
+.saale h3{
+  text-align: center;
+  padding: 25px 0;
+ 
+}
+.last{
+  display: flex;
+  justify-content: space-between;
+}
+.saale h3{
+  font-size: 32px;
+  color: #7971EA;
+}
+.saale p{
+  color: rgb(154, 153, 153);
+}
+
+.lit-img{
+  width: 200px;
+  height: 100px;
+}
+.footer input{
+  border: none;
+}
+#last{
+  border: 2px solid lightgray;
+  height: 50px;
+}
+.footer span{
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+}
+@media (max-width: 768px) {
+   .menu-botm{
+     display: none;}
+    }
+. > h3{
+  /* color: white; */
+  
+}
